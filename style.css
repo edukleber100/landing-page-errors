@@ -30,11 +30,10 @@ button {
     background: url('assets/background.png');
     background-repeat: no-repeat;
     background-position: 100% 100%;
-    background-origin: border-box;
+    background-origin: border-box;  
 }
 
 .content div {
-    background-color: #cecece;
     width: 540px;
 }
 
@@ -58,3 +57,21 @@ button {
 .header li {
     margin-right: 60px;
 }
+
+/*-----------------------Footer inicio--------------------------------*/
+
+footer{
+    background-color: #F78282;
+    padding-top: 68px;
+}
+footer div{
+    display: flex; 
+    justify-content: space-between;
+}
+footer  span p{
+    color: white;
+}
+footer div ul{
+    list-style: none;
+}
+/*-----------------------Footer Fim--------------------------------*/
