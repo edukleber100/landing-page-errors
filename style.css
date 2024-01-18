@@ -148,4 +148,16 @@ footer li{
     color: white
     
 }
+
+.rodape {
+    justify-content:space-between;
+    padding: 40px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+hr{
+    width: 57%;
+    margin-left: 22%;
+}
 /*-----------------------Footer Fim--------------------------------*/
