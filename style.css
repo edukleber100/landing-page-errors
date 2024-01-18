@@ -1,3 +1,7 @@
+*{
+    font-family: Roboto, sans-serif;
+}
+
 /*-----------------------Menu Navegação inicio--------------------------------*/
 
 nav {
@@ -40,26 +44,51 @@ nav {
 }
 
 button {
-    width: 160px;
-    height: 26px;
+    width: 189px;
+    height: 36px;
     flex-shrink: 0;
-
-    border-radius: 2px;
-    background-color: #CD313E;
-
-    border: none;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-    color: #fff;
-    text-align: center;
+    margin: 15px;
     font-family: Roboto;
+    text-align: center;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: 18px;
+}
+
+.purchase-button {
+    border-radius: 2px;
+    background-color: #CD313E;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #fff;
 
 }
 
+.learn-more {
+    background-color: transparent;
+    border-radius: 2px;
+    border: 2px solid var(--Colour-Main-Blue-900, #091133);
+    font-size: 16px;
+    width: 200px;
+    
+}
+
+.buy-now {
+    border-radius: 2px;
+    background-color: #EB423F;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
+
+.purchase-now{
+    border-radius: 2px;
+    background: #D04A3B;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
 /*-----------------------Menu Navegação fim--------------------------------*/
 
 /*-----------------------Conteudo inicio--------------------------------*/
@@ -150,14 +179,24 @@ footer li{
 }
 
 .rodape {
+    border-top: 2px solid rgb(255, 255, 255);
     justify-content:space-between;
     padding: 40px;
     width: 50%;
     margin-left: 25%;
 }
 
+.rodape1 {
+    justify-content:space-between;
+    padding: 40px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+/*
 hr{
     width: 57%;
     margin-left: 22%;
 }
+*/
 /*-----------------------Footer Fim--------------------------------*/
