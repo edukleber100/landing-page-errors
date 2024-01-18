@@ -18,6 +18,9 @@ button {
     flex-shrink: 0;
     background-color: #CD313E;
     color: #fff;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px black;
 }
 
 .content {
@@ -42,4 +45,16 @@ button {
     font-style: normal;
     font-weight: 400;
     line-height: 30px; 
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.header li {
+    margin-right: 60px;
 }
