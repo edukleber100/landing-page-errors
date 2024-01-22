@@ -2,42 +2,56 @@
 <html lang="pt-BR">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing ADA</title>
+    <title>Destaque Seu Produto: Apresentação Rápida e Eficaz</title>
 
+    <!---------SEO da Páagina----------->
+    <meta name="description" content="Impulsione o sucesso do seu produto com uma apresentação que conquista em segundos. Atraia atenção, transmita valor e feche negócios de forma eficiente.">
+    <meta name="keywords" content="destaque, produto, apresentação, eficaz, rápido, conquista, clientes, negócios, web, redes sociais">
+
+    <!---------Importação dos CSS ----------->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+
+    <!----- Importação de Icones de Redes Sociais ----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
     
 </head>
 
 <body>
     <header>
+        <!--------------------------- Menu de navegação ------------------------->
         <nav>
             <ul class="menu" id="menu">
                 <li style="cursor: pointer;">Home</li>
-                <li style="cursor: pointer;">About</li>
-                <li style="cursor: pointer;">Contact</li>
+                <li style="cursor: pointer;">Sobre</li>
+                <li style="cursor: pointer;">Contato</li>
             </ul>
     
             <span class="logo">
                 <img src="assets/logo.png" /> 
             </span>
-    
-            <button class="buy-now">Buy now</button>
+            
+            <div>
+                <button class="botao-nav" id="botao">Buy now</button>
+            </div>
+            
         </nav>
     </header>
     <main>
+        <!--------------------------- Conteúdo ------------------------->
         <section class="content">
 
             <div>
                 <h2>
-                    Introduce Your Product Quickly & Effectively
+                    Apresente seu produto de forma rápida e eficaz
                 </h2>
         
                 <p>
-                    Descubra a elegância suprema deste sofá contemporâneo. Seu design sofisticado e conforto inigualável tornam-no uma adição essencial para sua casa. Escolha a excelência, escolha nosso sofá.
+                    Impulsione o sucesso do seu produto com uma apresentação que conquista em segundos. Nosso método rápido e eficaz destaca os pontos-chave, cativando seu público-alvo instantaneamente.
                 </p>
                 <p>
-                    Seu revestimento em veludo macio proporciona uma sensação acolhedora, enquanto o apoio lombar ajustável garante relaxamento perfeito. Uma escolha inigualável.
+                    Seja na web, em reuniões ou nas redes sociais, apresentar seu produto nunca foi tão impactante. Atraia atenção, transmita valor e feche negócios de forma eficiente.
                 </p>
         
                 <button class="purchase-button">
@@ -50,26 +64,28 @@
     </main>
 
     <footer>
+        <!--------------------------- Footer ------------------------->
         <div class="rodape1">
             <span class="footer-copy"> ©2023 Yourcompany </span>
-
-            <button class="purchase-now">Purchase now</button>
+            <button class="botao-footer" id="botao">Purchase now</button>
         </div>
-
         
-
+        <!---------Menu do Rodapé  ----------->
         <div class="rodape">
             <ul class="menu">
                 <li style="cursor: pointer;">Home</li>
-                <li style="cursor: pointer;">About</li>
-                <li style="cursor: pointer;">Contact</li>
+                <li style="cursor: pointer;">Sobre</li>
+                <li style="cursor: pointer;">Contato</li>
             </ul>
 
-            <ul>
-                <li>
-                    <img style="cursor: pointer;" src="assets/social.png" alt="Social">
-                </li>
-            </ul>
+            <!---------Redes Sociais do Rodapé  ----------->
+            <div class="sociais">
+                    <a href="#" class="btn" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="btn" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+                    <a href="#" class="btn" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="btn" target="_blank"><i class="fab fa-youtube"></i></a> 
+                    <a href="#" class="btn" target="_blank"><i class="fab fa-instagram"></i></a>                
+            </div>
         </div>
     </footer>
 </body>
